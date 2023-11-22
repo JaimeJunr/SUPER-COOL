@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(82, 13, 23, 0.2);
+}
+
+
+.navbar{
+    background-color: rgb(82, 13, 23);
+}
+
+.nav .nav-link.active{
+    background-color: aliceblue;
+    color:rgb(82, 13, 23);
+}
+
+.nav .nav-link, .nav-brand{
+    color: aliceblue;
+}
+
+.navbar-toggler{
+    background-color: aliceblue;
+}
+
+.color-section{
+    background-color: rgb(82, 13, 23);
+    padding-bottom: 64px;
+    padding-top: 12px
+}
+
+
+
+
+#brand img{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 100%;
+    height: 170%;
+    width: 100%;
+}
+
+#brand {
+    justify-content: space-around;
+}
+
+#logo-brand{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+
+i{
+    color:black;
+}
+
+#contact form{
+    margin-bottom: 32px;
+}
+
+#contact button{
+    background-color:  rgb(82, 13, 23);
+    color: aliceblue;
+    margin-top: 8px;
+}
+
+@media screen and (max-width: 767px) {
+    #brand img{
+        height: 170%;
+        width: 200%;
+    }
+
+    #logo-brand{
+        min-width: 17% ;
+    }
+}

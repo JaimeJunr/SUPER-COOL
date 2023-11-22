@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boostrap</title>
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="Main.css">
+</head>
+
+<body>
+
+
+
+    <header class="navbar navbar-expand-lg sticky-top p-4">
+        <div class="container">
+            <h1 class="nav-brand m-0">Super Cool</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navBar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <nav class="collapse navbar-collapse justify-content-end" id="navBar">
+                <ul class="nav nav-pills d-block d-md-flex">
+                        <a href="#promotion" class="nav-link">Promoções</a>
+                        <a href="#about" class="nav-link">Sobre a Loja</a>
+                        <a href="#products" class="nav-link">Nossos Produtos</a>
+                        <a href="#contact" class="nav-link">Fale Conosco</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#navBar"  data-bs-smooth-scroll="true">
+        <section id="promotion">
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500"  >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="#">
+                            <img src="images/Promotion.webp" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#">
+                            <img src="images/Black Friday.gif" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+                </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container pt-2 pb-5">
+                <div class="row mt-3">
+                    <div class="col-md-7">
+                        <img src="images/Shop.png" class="w-100" class="w-100" alt="">
+                    </div>
+                    <div class="col-md-5">
+                        <h2>Sobre a Loja</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nesciunt culpa, in porro suscipit animi, voluptas nobis at quae quos possimus unde voluptate autem tempora. Eos sint fugit accusamus aspernatur?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae veniam numquam iste iusto praesentium exercitationem amet, id nulla minima commodi.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="color-section">
+                <div class="container">
+                    <h1 class="text-light">Nossas Marcas</h1>
+                    <div class="row me-3 ms-3" id="brand">
+                        <div class="col-2" id="logo-brand">
+                            <img src="images/Adidas-logo.png" alt="">
+                        </div>
+                        <div class="col-2" id="logo-brand">
+                            <img src="images/Nike-logo.png" alt="">
+                        </div>
+                        <div class="col-2" id="logo-brand">
+                            <img src="images/Gucci-logo.png" alt="">
+                        </div>
+                        <div class="col-2" id="logo-brand">
+                            <img src="images/Lacoste-logo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="products">
+            <div class="container mt-5 pt-5">
+                <h1 class="mt-5 mb-3">Nossos Produtos</h1>
+                <div class="row mt-3">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <img src="images/Roupa.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">250,00</h5>
+                                <p class="card-text">Produto</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <img src="images/Roupa.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">250,00</h5>
+                                <p class="card-text">Produto</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <img src="images/Roupa.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">250,00</h5>
+                                <p class="card-text">Produto</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <img src="images/Roupa.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">250,00</h5>
+                                <p class="card-text">Produto</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <img src="images/Roupa.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">250,00</h5>
+                                <p class="card-text">Produto</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <img src="images/Roupa.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">250,00</h5>
+                                <p class="card-text">Produto</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <img src="images/Roupa.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">250,00</h5>
+                                <p class="card-text">Produto</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <img src="images/Roupa.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">250,00</h5>
+                                <p class="card-text">Produto</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <img src="images/Roupa.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">250,00</h5>
+                                <p class="card-text">Produto</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <img src="images/Roupa.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">250,00</h5>
+                                <p class="card-text">Produto</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <img src="images/Roupa.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">250,00</h5>
+                                <p class="card-text">Produto</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <img src="images/Roupa.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">250,00</h5>
+                                <p class="card-text">Produto</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="mt-5">
+            <div class="container">
+                <div class="row">
+                    <h2>Fale Conosco</h2>
+                </div>
+                <div class="row"> 
+                    <div class="col-md-7">
+                        <form>
+                            <div>
+                                <label for="name" class="form-label">Seu Nome</label>
+                                <input type="text" class="form-control" id="name" aria-describedby="">
+                            </div>
+                            <div>
+                                <label for="Email" class="form-label">Seu Email</label>
+                                <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                            </div>
+                            <div>
+                                <label for="number" class="form-label">Seu Numero</label>
+                                <input type="number" class="form-control" id="number" aria-describedby="emailHelp">
+                            </div>
+                            <div>
+                                <label for="mensage" class="form-label">Sua Mensagem</label>
+                                <textarea id="mensage" class="form-control" cols="30" rows="10"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn">enviar</button>
+                        </form>
+                    </div>
+
+                    <div class="col-md-5">
+                        <h3>Rede Sociais</h3>
+                        <ul class="d-flex">
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-whatsapp fs-5"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-instagram fs-5 ms-3"></i>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <h3>Nosso Endereço</h3>
+                        <p>Rua .............</p>
+                    </div>
+                </div>
+            </div>
+            
+        
+            </form>
+        </section>
+    </div>
+    
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
